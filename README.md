@@ -5,11 +5,11 @@ This project uses neural data recorded from 32 channels to predict mouse cursor 
 The project was implemented in a Jupyter notebook environment and executed on Arizona State University's Sol supercomputer, utilizing its high-throughput GPU-enabled compute nodes for model training and data processing.
 
 
-I use data from a .mat file containing:
+I use data from a .mat file named 'processed_reach_data.mat' containing:
 
--neural_data_pro: High-resolution neural activity from 32 channels
--mouse_position: X and Y cursor positions
--time_base: Time vector corresponding to each sample
+- neural_data_pro: High-resolution neural activity from 32 channels
+- mouse_position: X and Y cursor positions
+- time_base: Time vector corresponding to each sample
 
 
 ## Mouse Cursor Positions Over Time
